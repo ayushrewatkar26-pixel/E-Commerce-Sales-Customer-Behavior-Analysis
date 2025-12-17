@@ -1,199 +1,108 @@
-# E-Commerce-Sales-Customer-Behavior-Analysis
-By: Ayush Rewatkar
+# 🛒 E‑Commerce Sales & Customer Behavior Analysis
 
-SQL ▷ Python ▷ Power BI ▷ Insights
+## 📌 Project Overview
 
-This end-to-end analytics project explores sales performance, customer behavior, delivery operations, and RFM segmentation using real-world e-commerce data.
-The workflow integrates MySQL, Python, and Power BI to deliver insights that support data-driven business decisions.
+This project focuses on analyzing **e‑commerce sales data** to understand **customer behavior, sales performance, and operational efficiency**. The goal is to generate **actionable business insights** using an end‑to‑end **Data Analytics workflow** involving **SQL, Python, and Power BI**.
 
-🚀 Project Workflow
-1️⃣ SQL — Data Cleaning & Transformation (MySQL Workbench)
+The project simulates a real‑world analytics scenario where raw transactional data is transformed into **meaningful dashboards and insights** for business decision‑making.
 
-Clean and standardize raw data
+---
 
-Remove duplicates
+## 🎯 Business Objectives
 
-Format timestamps
+* Analyze overall **sales performance and trends**
+* Understand **customer purchasing behavior**
+* Segment customers using **RFM Analysis**
+* Identify **top‑performing products and sellers**
+* Evaluate **delivery performance and customer satisfaction**
 
-Join tables to create the master table: full_orders
+---
 
-Generate RFM base table
+## 🧰 Tools & Technologies Used
 
-Perform analytical SQL queries
+* **SQL (MySQL)** – Data cleaning, joins, aggregations, window functions
+* **Python (Pandas, NumPy, Matplotlib)** – Exploratory Data Analysis & customer segmentation
+* **Power BI** – Interactive dashboards & data visualization
+* **Excel / CSV** – Data storage and preprocessing
 
-2️⃣ Python — EDA & Customer Analysis
+---
 
-Import SQL tables into Pandas
+## 🗂️ Dataset Description
 
-Clean & preprocess data
+The dataset represents an e‑commerce platform and includes:
 
-Exploratory Data Analysis (EDA)
+* Orders & order items
+* Customers & sellers
+* Payments & delivery details
+* Product categories
 
-Customer behavior analysis
+> Data was cleaned and transformed before analysis to handle duplicates, missing values, and inconsistencies.
 
-RFM segmentation using Python
+---
 
-Export datasets for Power BI
+## 🔄 Project Workflow
 
-3️⃣ Power BI — Dashboard & Insights
+1. **Data Cleaning & Transformation (SQL)**
 
-Sales performance dashboard
+   * Removed duplicate records
+   * Created master tables using joins
+   * Performed aggregations & date‑based analysis
 
-Customer segmentation dashboard
+2. **Exploratory Data Analysis (Python)**
 
-Operations & delivery performance dashboard
+   * Sales & revenue trends
+   * Customer purchase frequency
+   * Delivery time distribution
 
-Interactive KPIs, slicers, drilldowns
+3. **Customer Segmentation (RFM Analysis)**
 
-📊 Dashboards (Power BI)
-1. Sales Overview
+   * Recency, Frequency, Monetary scoring
+   * Classified customers into meaningful segments
 
-Total Revenue
+4. **Data Visualization (Power BI)**
 
-Total Orders
+   * Sales & revenue dashboards
+   * Customer segmentation visuals
+   * Delivery & operational KPIs
 
-Average Order Value (AOV)
+---
 
-Monthly Sales Trend
+## 📊 Key Insights
 
-Category Revenue
+* Identified **high‑value and repeat customers** using RFM segmentation
+* Found **top revenue‑generating sellers and product categories**
+* Analyzed **delivery delays and their impact on customer reviews**
+* Observed clear **seasonal trends in sales**
 
-Top 10 Products
+---
 
-2. Customer Behavior
+## 📷 Dashboards Preview
 
-RFM Segmentation
+*(Add screenshots of your Power BI dashboards here)*
 
-Customer Lifetime Value
+---
 
-Repeat Purchase Customers
+## 🚀 How This Project Adds Value
 
-High-value vs Low-value customers
+* Demonstrates **end‑to‑end data analyst skills**
+* Reflects **real business problem solving**
+* Showcases ability to work with **large datasets & multiple tools**
+* Suitable for **Data Analyst / Business Analyst portfolios**
 
-3. Operations & Delivery
+---
 
-Delivery Days & Delays
+## 📎 Project Link
 
-Review Score Distribution
+🔗 GitHub Repository: [https://github.com/ayushrewatkar26-pixel/E-Commerce-Sales-Customer-Behavior-Analysis](https://github.com/ayushrewatkar26-pixel/E-Commerce-Sales-Customer-Behavior-Analysis)
 
-Payment Methods
+---
 
-Top Sellers
+## 👤 Author
 
+**Ayush Rewatkar**
+Aspiring Data Analyst | SQL | Python | Power BI
+🔗 LinkedIn: [https://www.linkedin.com/in/ayushrewatkar2611](https://www.linkedin.com/in/ayushrewatkar2611)
 
-🗄️ SQL Components
-✔️ Master Table (full_orders)
+---
 
-Joined using:
-
-orders_dataset
-
-customers
-
-order_items
-
-order_payments
-
-order_reviews
-
-products
-
-sellers
-
-✔️ Key SQL Queries
-
-Total Sales
-
-Monthly Sales Trend
-
-Category-wise Revenue
-
-Top 10 Products
-
-Delivery Analysis
-
-Payment Method Summary
-
-✔️ RFM SQL Query
-
-Calculating Recency, Frequency, Monetary per customer.
-
-🐍 Python Components
-Notebooks Included
-
-Python_eda.ipynb — Data Cleaning + Exploratory Analysis + RFM Scoring + Customer Segmentation
-
-Visualizations
-
-Sales Trend
-
-Category Revenue
-
-Payment Type Usage
-
-Delivery Days Distribution
-
-RFM Heatmap
-
-Customer Segments
-
-Libraries Used
-pandas
-numpy
-matplotlib
-sqlalchemy
-
-📁 Project Folder Structure
-ecommerce-sales-customer-analysis/
-│
-├── 1_SQL/
-│   ├── create_master_table.sql
-│   ├── cleaning_queries.sql
-│   ├── analysis_queries.sql
-│   └── rfm_queries.sql
-│
-├── 2_Python/
-│   ├── python_eda.ipynb
-│   ├── requirements.txt
-│   └── final_ecommerce_dataset.csv 
-│
-├── 3_PowerBI/
-│   ├── Ecommerce_Dashboard.pbix
-│   ├── dashboard_screenshots/
-│
-├── images/
-│   ├── project_cover.png
-│
-└── README.md
-
-📥 How to Use This Project
-Clone Repository
-git clone https://github.com/your-username/ecommerce-sales-analysis.git
-
-Install Python Dependencies
-pip install -r requirements.txt
-
-Run Python Notebooks
-
-Open .ipynb files in
-Jupyter Notebook / VS Code / Google Colab.
-
-View Dashboard
-
-Open Power BI (.pbix) file.
-
-🧠 Key Insights (Examples)
-
-Customers with high frequency but moderate monetary value represent strong growth potential.
-
-Delivery delays correlate negatively with review scores.
-
-A few product categories contribute to the majority of revenue (Pareto 80/20 pattern).
-
-Payment is dominated by credit card transactions.
-
-🧾 Author
-
-👤 Ayush Rewatkar
-Aspiring Data Analyst | B.Tech CSE (AI)
-🔗 LinkedIn: www.linkedin.com/in/ayushrewatkar2611
+⭐ *If you find this project useful, feel free to star the repository!*
