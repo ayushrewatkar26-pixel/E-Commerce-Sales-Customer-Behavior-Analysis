@@ -76,12 +76,6 @@ The dataset represents an e‑commerce platform and includes:
 
 ---
 
-## 📷 Dashboards Preview
-
-*(Add screenshots of your Power BI dashboards here)*
-
----
-
 ## 🚀 How This Project Adds Value
 
 * Demonstrates **end‑to‑end data analyst skills**
